@@ -113,7 +113,7 @@ const BranchTabsSection = () => {
               className={i === 0 ? "active" : ""}
               role="presentation"
             >
-              <a href={`#${b.id}`} role="tab" data-toggle="tab">
+              <a href={`/${b.id}`} role="tab" data-toggle="tab">
                 {b.name}
               </a>
             </li>
